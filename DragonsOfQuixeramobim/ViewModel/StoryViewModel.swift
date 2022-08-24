@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Missão 4
 class StoryViewModel {
 
     weak var delegate: StoryViewModelDelegate?

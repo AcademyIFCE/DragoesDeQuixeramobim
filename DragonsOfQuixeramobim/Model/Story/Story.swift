@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Missão 2
 class Story {
 
     private let url = Bundle.main.url(forResource: "story", withExtension: "json")!
@@ -17,6 +18,7 @@ class Story {
         pages[currentPageIndex]
     }
     
+    // 💉 🪢 = ✨🎁✨ 
     init() {
         do {
             let data = try Data(contentsOf: url)

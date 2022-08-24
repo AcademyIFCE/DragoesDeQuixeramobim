@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0692694C28B6C36A00533F66 /* StoryPageManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692694B28B6C36A00533F66 /* StoryPageManagerProtocol.swift */; };
 		06D03A3028B6088A008FB041 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D03A2F28B6088A008FB041 /* Action.swift */; };
 		06E46F9828B5C2BA00163278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46F9728B5C2BA00163278 /* AppDelegate.swift */; };
 		06E46F9A28B5C2BA00163278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46F9928B5C2BA00163278 /* SceneDelegate.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0692694B28B6C36A00533F66 /* StoryPageManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageManagerProtocol.swift; sourceTree = "<group>"; };
 		06D03A2F28B6088A008FB041 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		06E46F9428B5C2BA00163278 /* DragonsOfQuixeramobim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonsOfQuixeramobim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E46F9728B5C2BA00163278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,15 @@
 				06E46FD528B5E3EA00163278 /* Body.swift */,
 			);
 			path = Effects;
+			sourceTree = "<group>";
+		};
+		0692694D28B6C37200533F66 /* StoryPageManager */ = {
+			isa = PBXGroup;
+			children = (
+				0692694B28B6C36A00533F66 /* StoryPageManagerProtocol.swift */,
+				06E46FDB28B5E42F00163278 /* StoryPageManager.swift */,
+			);
+			path = StoryPageManager;
 			sourceTree = "<group>";
 		};
 		06D03A3128B609A9008FB041 /* Story */ = {
@@ -239,7 +250,7 @@
 		06E46FE928B5E51700163278 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				06E46FDB28B5E42F00163278 /* StoryPageManager.swift */,
+				0692694D28B6C37200533F66 /* StoryPageManager */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -396,6 +407,7 @@
 				06E46F9C28B5C2BA00163278 /* StoryViewController.swift in Sources */,
 				06E46FDE28B5E44700163278 /* Choice.swift in Sources */,
 				06E46FD028B5E3D600163278 /* StoryPage.swift in Sources */,
+				0692694C28B6C36A00533F66 /* StoryPageManagerProtocol.swift in Sources */,
 				06E46FED28B5EC6D00163278 /* StoryViewDelegate.swift in Sources */,
 				06E46FD428B5E3E500163278 /* Height.swift in Sources */,
 				06E46FC828B5C42A00163278 /* StoryView.swift in Sources */,
