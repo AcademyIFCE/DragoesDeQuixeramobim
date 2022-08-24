@@ -55,7 +55,7 @@ class StoryView: UIView {
         label = UILabel()
         label.numberOfLines = 0
         
-        let font = UIFont.boldSystemFont(ofSize: 18)
+        let font = UIFont.boldSystemFont(ofSize: 20)
         label.font = font
         
         label.textColor = .white
@@ -89,11 +89,13 @@ class StoryView: UIView {
         self.addSubview(tableView)
         
         NSLayoutConstraint.activate([
-            tableView.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 190),
+            tableView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.65),
             tableView.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor, constant: 30),
             tableView.trailingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.trailingAnchor, constant: -30),
             tableView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor)
         ])
+        
+        tableView.transform = CGAffineTransform(scaleX: 1, y: -1)
     }
     
 }
@@ -103,6 +105,7 @@ extension StoryView : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! ChoiceCell
         cell.label.text = choices[indexPath.row].text
+        cell.transform = CGAffineTransform(scaleX: 1, y: -1)
         return cell
     }
     

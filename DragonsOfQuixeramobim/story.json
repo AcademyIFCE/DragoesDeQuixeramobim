@@ -1,6 +1,6 @@
 [
     {
-        "text": "Olá viajante! Bem vindo ao sertão mágico de Quixeramobim, e antes que você explore a região, precisamos fichar você. Vejamos... O que você faz da vida?",
+        "text": "Olá viajante! Boas vindas ao sertão mágico de Quixeramobim. Antes que você explore a região, precisamos identificar você. Vejamos... O que você faz da vida?",
         "effect": "skill",
         "choices": [
             {
@@ -8,7 +8,7 @@
                 "value": 0,
             },
             {
-                "text": "Sou da Maromba Academy, um dos mais fortes da minha turma!",
+                "text": "Sou da Maromba Academy, ninguém é mais forte que eu!",
                 "value": 1,
             },
             {
@@ -67,7 +67,7 @@
                 "text": "...",
             },
             {
-                "text": "Arriégua! Espero não esbarrar contigo. Abestalhado debochando do meu corpo oxe.",
+                "text": "Arriégua! Espero não esbarrar contigo. Abestalhado debochando da minha altura oxe.",
             }
         ]
     },
@@ -161,7 +161,7 @@
         "text": "Você não interviu, e assistiu a briga escalar até Toin ter sua mão arrancada por Rabicó! Após isso, comeu, bebeu, pagou sua conta e deixou a cidade.",
         "choices": [
             {
-                "text": "FIM."
+                "text": "FIM"
             }
         ]
     },
@@ -187,7 +187,7 @@
         "text": "Você interviu na briga, com calma e uma boa oratória, você convence os dois a deixarem a desavença para lá, conta uma história que faz todos rir e ainda ganha bebida de graça por ter resolvido a situação. Você fez amigos, como você queria.",
         "choices": [
             {
-                "text": "FIM.",
+                "text": "FIM",
             }
         ]
     },
@@ -195,7 +195,7 @@
         "text": "Você apagou o fogo! Tudo está bem agora. Depois disso você deixa a cidade.",
         "choices": [
             {
-                "text": "FIM."
+                "text": "FIM"
             }
         ]
     },
@@ -203,7 +203,7 @@
         "text": "Você fugiu! Tudo está bem agora. Depois disso você deixa a cidade.",
         "choices": [
             {
-                "text": "FIM."
+                "text": "FIM"
             }
         ]
     },
@@ -211,7 +211,7 @@
         "text": "Você não conseguiu fugir e pereceu nas chamas do Rabicó! Descanse em Paz.",
         "choices": [
             {
-                "text": "FIM."
+                "text": "FIM"
             }
         ]
     }

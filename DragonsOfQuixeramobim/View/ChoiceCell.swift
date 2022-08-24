@@ -49,7 +49,7 @@ class ChoiceCell: UITableViewCell {
         
         label.numberOfLines = 0
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 13, weight: .medium)
+        label.font = UIFont.systemFont(ofSize: 15, weight: .medium)
         label.textColor = .white
         label.textAlignment = .center
         

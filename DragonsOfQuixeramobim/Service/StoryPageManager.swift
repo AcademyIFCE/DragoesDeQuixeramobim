@@ -7,28 +7,35 @@
 
 import Foundation
 
-class StoryPageManager {
+protocol StoryPageManagerProtocol {
+    var playerDelegate: PlayerDelegate? { get set }
+    var page: StoryPage { get set }
+    init(page: StoryPage, delegate: PlayerDelegate)
+    func markChoice(_ choice: Choice)
+}
 
-    weak var characterDelegate: PlayerDelegate? = nil
+class StoryPageManager: StoryPageManagerProtocol {
+
+    weak var playerDelegate: PlayerDelegate? = nil
 
     var page: StoryPage
     
-    init(page: StoryPage, delegate: PlayerDelegate) {
+    required init(page: StoryPage, delegate: PlayerDelegate) {
         self.page = page
-        self.characterDelegate = delegate
+        self.playerDelegate = delegate
     }
     
     func markChoice(_ choice: Choice) {
         guard let effect = page.effect, let choiceValue = choice.value else { return }
         switch effect {
         case "skill":
-            characterDelegate?.setSkill(Skill(rawValue: choiceValue)!)
+                playerDelegate?.setSkill(Skill(rawValue: choiceValue)!)
         case "height":
-            characterDelegate?.setHeight(Height(rawValue: choiceValue)!)
+                playerDelegate?.setHeight(Height(rawValue: choiceValue)!)
         case "body":
-            characterDelegate?.setBody(Body(rawValue: choiceValue)!)
+                playerDelegate?.setBody(Body(rawValue: choiceValue)!)
         case "action":
-            characterDelegate?.takeAction(Action(rawValue: choiceValue)!)
+                playerDelegate?.takeAction(Action(rawValue: choiceValue)!)
         default: break
         }
     }

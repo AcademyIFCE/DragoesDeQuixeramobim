@@ -11,10 +11,10 @@ class StoryViewModel {
 
     weak var delegate: StoryViewModelDelegate?
 
-    private let player = Player()
-    private let story = Story()
+    private var player = Player()
+    private var story = Story()
     
-    private lazy var manager = StoryPageManager(page: story.currentPage, delegate: self)
+    private lazy var manager: StoryPageManagerProtocol = StoryPageManager(page: story.currentPage, delegate: self)
     
     var textForCurrentPage: String {
         story.currentPage.text
@@ -28,9 +28,18 @@ class StoryViewModel {
     }
     
     func nextPage() {
-        guard manager.page.choices.first?.text != "FIM." else { return }
-        manager.page = story.nextPage(skip: player.amountOfPagesToSkip())
+        if manager.page.choices.first?.text != "FIM" {
+            manager.page = story.nextPage(skip: player.amountOfPagesToSkip())
+        } else {
+            restart()
+        }
         delegate?.load(text: manager.page.text, choices: manager.page.choices)
+    }
+    
+    func restart() {
+        player = Player()
+        story = Story()
+        manager = StoryPageManager(page: story.currentPage, delegate: self)
     }
     
 }

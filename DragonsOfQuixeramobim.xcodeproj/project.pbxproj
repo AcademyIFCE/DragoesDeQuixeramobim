@@ -106,6 +106,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0692694A28B6B75500533F66 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				06D03A2F28B6088A008FB041 /* Action.swift */,
+				06E46FD128B5E3E000163278 /* Skill.swift */,
+				06E46FD328B5E3E500163278 /* Height.swift */,
+				06E46FD528B5E3EA00163278 /* Body.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
 		06D03A3128B609A9008FB041 /* Story */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,10 +193,7 @@
 			children = (
 				06E46FEA28B5E56800163278 /* Protocol */,
 				06E46FD728B5E40F00163278 /* Player.swift */,
-				06D03A2F28B6088A008FB041 /* Action.swift */,
-				06E46FD128B5E3E000163278 /* Skill.swift */,
-				06E46FD328B5E3E500163278 /* Height.swift */,
-				06E46FD528B5E3EA00163278 /* Body.swift */,
+				0692694A28B6B75500533F66 /* Effects */,
 			);
 			path = Player;
 			sourceTree = "<group>";
