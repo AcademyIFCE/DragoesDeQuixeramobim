@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D03A3028B6088A008FB041 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D03A2F28B6088A008FB041 /* Action.swift */; };
 		06E46F9828B5C2BA00163278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46F9728B5C2BA00163278 /* AppDelegate.swift */; };
 		06E46F9A28B5C2BA00163278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46F9928B5C2BA00163278 /* SceneDelegate.swift */; };
-		06E46F9C28B5C2BA00163278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46F9B28B5C2BA00163278 /* ViewController.swift */; };
-		06E46F9F28B5C2BA00163278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E46F9D28B5C2BA00163278 /* Main.storyboard */; };
+		06E46F9C28B5C2BA00163278 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46F9B28B5C2BA00163278 /* StoryViewController.swift */; };
 		06E46FA128B5C2BD00163278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E46FA028B5C2BD00163278 /* Assets.xcassets */; };
 		06E46FA428B5C2BD00163278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E46FA228B5C2BD00163278 /* LaunchScreen.storyboard */; };
 		06E46FAF28B5C2BE00163278 /* DragonsOfQuixeramobimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FAE28B5C2BE00163278 /* DragonsOfQuixeramobimTests.swift */; };
 		06E46FB928B5C2BE00163278 /* DragonsOfQuixeramobimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FB828B5C2BE00163278 /* DragonsOfQuixeramobimUITests.swift */; };
 		06E46FBB28B5C2BE00163278 /* DragonsOfQuixeramobimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FBA28B5C2BE00163278 /* DragonsOfQuixeramobimUITestsLaunchTests.swift */; };
+		06E46FC828B5C42A00163278 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FC728B5C42A00163278 /* StoryView.swift */; };
+		06E46FCA28B5C48700163278 /* ChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FC928B5C48700163278 /* ChoiceCell.swift */; };
+		06E46FCC28B5C52000163278 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FCB28B5C52000163278 /* Story.swift */; };
+		06E46FCE28B5D56500163278 /* story.json in Resources */ = {isa = PBXBuildFile; fileRef = 06E46FCD28B5D56500163278 /* story.json */; };
+		06E46FD028B5E3D600163278 /* StoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FCF28B5E3D600163278 /* StoryPage.swift */; };
+		06E46FD228B5E3E000163278 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FD128B5E3E000163278 /* Skill.swift */; };
+		06E46FD428B5E3E500163278 /* Height.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FD328B5E3E500163278 /* Height.swift */; };
+		06E46FD628B5E3EA00163278 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FD528B5E3EA00163278 /* Body.swift */; };
+		06E46FD828B5E40F00163278 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FD728B5E40F00163278 /* Player.swift */; };
+		06E46FDA28B5E41F00163278 /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FD928B5E41F00163278 /* PlayerDelegate.swift */; };
+		06E46FDC28B5E42F00163278 /* StoryPageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FDB28B5E42F00163278 /* StoryPageManager.swift */; };
+		06E46FDE28B5E44700163278 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FDD28B5E44700163278 /* Choice.swift */; };
+		06E46FE028B5E46700163278 /* StoryViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FDF28B5E46700163278 /* StoryViewModelDelegate.swift */; };
+		06E46FE228B5E47F00163278 /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FE128B5E47F00163278 /* StoryViewModel.swift */; };
+		06E46FED28B5EC6D00163278 /* StoryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E46FEC28B5EC6D00163278 /* StoryViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D03A2F28B6088A008FB041 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		06E46F9428B5C2BA00163278 /* DragonsOfQuixeramobim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonsOfQuixeramobim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E46F9728B5C2BA00163278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06E46F9928B5C2BA00163278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06E46F9B28B5C2BA00163278 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		06E46F9E28B5C2BA00163278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06E46F9B28B5C2BA00163278 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		06E46FA028B5C2BD00163278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06E46FA328B5C2BD00163278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06E46FA528B5C2BD00163278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,21 @@
 		06E46FB428B5C2BE00163278 /* DragonsOfQuixeramobimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonsOfQuixeramobimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E46FB828B5C2BE00163278 /* DragonsOfQuixeramobimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsOfQuixeramobimUITests.swift; sourceTree = "<group>"; };
 		06E46FBA28B5C2BE00163278 /* DragonsOfQuixeramobimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsOfQuixeramobimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06E46FC728B5C42A00163278 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		06E46FC928B5C48700163278 /* ChoiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceCell.swift; sourceTree = "<group>"; };
+		06E46FCB28B5C52000163278 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		06E46FCD28B5D56500163278 /* story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = story.json; sourceTree = "<group>"; };
+		06E46FCF28B5E3D600163278 /* StoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPage.swift; sourceTree = "<group>"; };
+		06E46FD128B5E3E000163278 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		06E46FD328B5E3E500163278 /* Height.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Height.swift; sourceTree = "<group>"; };
+		06E46FD528B5E3EA00163278 /* Body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
+		06E46FD728B5E40F00163278 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		06E46FD928B5E41F00163278 /* PlayerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDelegate.swift; sourceTree = "<group>"; };
+		06E46FDB28B5E42F00163278 /* StoryPageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageManager.swift; sourceTree = "<group>"; };
+		06E46FDD28B5E44700163278 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		06E46FDF28B5E46700163278 /* StoryViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModelDelegate.swift; sourceTree = "<group>"; };
+		06E46FE128B5E47F00163278 /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
+		06E46FEC28B5EC6D00163278 /* StoryViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06D03A3128B609A9008FB041 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				06E46FCB28B5C52000163278 /* Story.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
 		06E46F8B28B5C2BA00163278 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +139,11 @@
 			children = (
 				06E46F9728B5C2BA00163278 /* AppDelegate.swift */,
 				06E46F9928B5C2BA00163278 /* SceneDelegate.swift */,
-				06E46F9B28B5C2BA00163278 /* ViewController.swift */,
-				06E46F9D28B5C2BA00163278 /* Main.storyboard */,
+				06E46FE928B5E51700163278 /* Service */,
+				06E46FE528B5E4C700163278 /* Model */,
+				06E46FE628B5E4F900163278 /* ViewModel */,
+				06E46FE728B5E50300163278 /* View */,
+				06E46FCD28B5D56500163278 /* story.json */,
 				06E46FA028B5C2BD00163278 /* Assets.xcassets */,
 				06E46FA228B5C2BD00163278 /* LaunchScreen.storyboard */,
 				06E46FA528B5C2BD00163278 /* Info.plist */,
@@ -125,6 +166,90 @@
 				06E46FBA28B5C2BE00163278 /* DragonsOfQuixeramobimUITestsLaunchTests.swift */,
 			);
 			path = DragonsOfQuixeramobimUITests;
+			sourceTree = "<group>";
+		};
+		06E46FE328B5E49800163278 /* Decodable */ = {
+			isa = PBXGroup;
+			children = (
+				06E46FCF28B5E3D600163278 /* StoryPage.swift */,
+				06E46FDD28B5E44700163278 /* Choice.swift */,
+			);
+			path = Decodable;
+			sourceTree = "<group>";
+		};
+		06E46FE428B5E4B300163278 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				06E46FEA28B5E56800163278 /* Protocol */,
+				06E46FD728B5E40F00163278 /* Player.swift */,
+				06D03A2F28B6088A008FB041 /* Action.swift */,
+				06E46FD128B5E3E000163278 /* Skill.swift */,
+				06E46FD328B5E3E500163278 /* Height.swift */,
+				06E46FD528B5E3EA00163278 /* Body.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		06E46FE528B5E4C700163278 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06D03A3128B609A9008FB041 /* Story */,
+				06E46FE428B5E4B300163278 /* Player */,
+				06E46FE328B5E49800163278 /* Decodable */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06E46FE628B5E4F900163278 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				06E46FEE28B5EC9E00163278 /* Protocol */,
+				06E46FE128B5E47F00163278 /* StoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		06E46FE728B5E50300163278 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06E46FE828B5E50C00163278 /* Protocol */,
+				06E46F9B28B5C2BA00163278 /* StoryViewController.swift */,
+				06E46FC728B5C42A00163278 /* StoryView.swift */,
+				06E46FC928B5C48700163278 /* ChoiceCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06E46FE828B5E50C00163278 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				06E46FEC28B5EC6D00163278 /* StoryViewDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		06E46FE928B5E51700163278 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				06E46FDB28B5E42F00163278 /* StoryPageManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		06E46FEA28B5E56800163278 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				06E46FD928B5E41F00163278 /* PlayerDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		06E46FEE28B5EC9E00163278 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				06E46FDF28B5E46700163278 /* StoryViewModelDelegate.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +358,7 @@
 			files = (
 				06E46FA428B5C2BD00163278 /* LaunchScreen.storyboard in Resources */,
 				06E46FA128B5C2BD00163278 /* Assets.xcassets in Resources */,
-				06E46F9F28B5C2BA00163278 /* Main.storyboard in Resources */,
+				06E46FCE28B5D56500163278 /* story.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +383,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E46F9C28B5C2BA00163278 /* ViewController.swift in Sources */,
+				06E46FD828B5E40F00163278 /* Player.swift in Sources */,
+				06D03A3028B6088A008FB041 /* Action.swift in Sources */,
+				06E46F9C28B5C2BA00163278 /* StoryViewController.swift in Sources */,
+				06E46FDE28B5E44700163278 /* Choice.swift in Sources */,
+				06E46FD028B5E3D600163278 /* StoryPage.swift in Sources */,
+				06E46FED28B5EC6D00163278 /* StoryViewDelegate.swift in Sources */,
+				06E46FD428B5E3E500163278 /* Height.swift in Sources */,
+				06E46FC828B5C42A00163278 /* StoryView.swift in Sources */,
+				06E46FDC28B5E42F00163278 /* StoryPageManager.swift in Sources */,
 				06E46F9828B5C2BA00163278 /* AppDelegate.swift in Sources */,
+				06E46FCC28B5C52000163278 /* Story.swift in Sources */,
+				06E46FD228B5E3E000163278 /* Skill.swift in Sources */,
+				06E46FCA28B5C48700163278 /* ChoiceCell.swift in Sources */,
 				06E46F9A28B5C2BA00163278 /* SceneDelegate.swift in Sources */,
+				06E46FE228B5E47F00163278 /* StoryViewModel.swift in Sources */,
+				06E46FE028B5E46700163278 /* StoryViewModelDelegate.swift in Sources */,
+				06E46FD628B5E3EA00163278 /* Body.swift in Sources */,
+				06E46FDA28B5E41F00163278 /* PlayerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		06E46F9D28B5C2BA00163278 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06E46F9E28B5C2BA00163278 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		06E46FA228B5C2BD00163278 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,9 +576,9 @@
 				INFOPLIST_FILE = DragonsOfQuixeramobim/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,9 +604,9 @@
 				INFOPLIST_FILE = DragonsOfQuixeramobim/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,218 @@
+[
+    {
+        "text": "Olá viajante! Bem vindo ao sertão mágico de Quixeramobim, e antes que você explore a região, precisamos fichar você. Vejamos... O que você faz da vida?",
+        "effect": "skill",
+        "choices": [
+            {
+                "text": "Sou da escola Bruxos Academy, tenho habilidades mágicas.",
+                "value": 0,
+            },
+            {
+                "text": "Sou da Maromba Academy, um dos mais fortes da minha turma!",
+                "value": 1,
+            },
+            {
+                "text": "Sou da paz, apenas viajo, ando por aí procurando histórias, conhecendo pessoas, vendendo minha arte...",
+                "value": 2,
+            },
+            {
+                "text": "Trabalho com invenções e gambiarras! Pau pra toda obra, estou procurando serviço.",
+                "value": 3,
+            }
+        ]
+    },
+    {
+        "text": "Nossa! A sua altura é...",
+        "effect": "height",
+        "choices": [
+            {
+                "text": "Acima da média? É, eu sei.",
+                "value": 0,
+            },
+            {
+                "text": "Mediana, pois é.",
+                "value": 1,
+            },
+            {
+                "text": "Abaixo da média pra minha idade... ainda estou em fase de crescimento!",
+                "value": 2,
+            }
+        ]
+    },
+    {
+        "text": "E sua categoria de peso se você fosse participar de uma competição de luta...",
+        "effect": "body",
+        "choices": [
+            {
+                "text": "Peso leve.",
+                "value": 0,
+            },
+            {
+                "text": "Acho que estou na média.",
+                "value": 1,
+            },
+            {
+                "text": "Peso PESADO!",
+                "value": 2,
+            }
+        ]
+    },
+    {
+        "text": "Hmmm certo... você está cadastrado 🤨 Pode explorar a área. Te vejo por aí.",
+        "choices": [
+            {
+                "text": "Té mais.",
+            },
+            {
+                "text": "...",
+            },
+            {
+                "text": "Arriégua! Espero não esbarrar contigo. Abestalhado debochando do meu corpo oxe.",
+            }
+        ]
+    },
+    {
+        "text": "Você seguiu seu rumo até seu destino: a famosa Taverna-Bar Calango Voador. Entrou, e se sentou numa mesa próxima. Fez um pedido simples e ficou observando o movimento local.",
+        "choices": [
+            {
+                "text": "Próximo",
+            }
+        ]
+    },
+    {
+        "text": "Você já tinha ouvido falar desse lugar antes, havia um mercante que sempre vendia suas bugigangas por lá...",
+        "choices": [
+            {
+                "text": "Próximo",
+            }
+        ]
+    },
+    {
+        "text": "Ele se chamava Chico, e andava sempre com seu pequeno dragão azul no ombro, este chamado de Rabicó, pois tinha o nariz achatado tal qual o porquinho famoso do folclore contado na região.",
+        "choices": [
+            {
+                "text": "Próximo",
+            }
+        ]
+    },
+    {
+        "text": "Não foi difícil de ver Chico no bar, ele estava na mesa ao lado, contando suas moedas. Em cima da mesa também havia um saco de ovos gigantes, que pareciam ser de dragão.",
+        "choices": [
+            {
+                "text": "Próximo",
+            }
+        ]
+    },
+    {
+        "text": "De repente um jovem rapaz, parecendo furioso, se aproximou de Chico.",
+        "choices": [
+            {
+                "text": "Próximo",
+            }
+        ]
+    },
+    {
+        "text": "- Você lembra de mim Chico?! Sou Toin, tava aqui onti mermo! Coméqui ocê mi vendi um ovo de avestruiz seu cabra semvergoin.",
+        "choices": [
+            {
+                "text": "(Eita...)",
+            }
+        ]
+    },
+    {
+        "text": "Chico respondeu\n- Dêxe de ser fuleragi home, eu vendi ovo de avestruz coisa nenhuma! São de dragão!",
+        "choices": [
+            {
+                "text": "(Vixe...)",
+            }
+        ]
+    },
+    {
+        "text": "Toin, furioso, insistiu\n- SEU CABRA MENTIROSO, FUI ENGANADO, ME DEVOLVA MEUS GALEÕES!",
+        "choices": [
+            {
+                "text": "(Acho que vai ter briga...)",
+            }
+        ]
+    },
+    {
+        "text": "Chico teimou, agora fazendo um movimento que parecia um comando ao seu dragão\n- Tenha vergonha seu Caba, cê acha que ta falando com quem? Ta doido pra sentir os dentes do Rabicó nos coro.",
+        "choices": [
+            {
+                "text": "(EITA...)",
+            }
+        ]
+    },
+    {
+        "text": "Você, viajante, irá intervir?",
+        "effect": "action",
+        "choices": [
+            {
+                "text": "Tentar apaziguar a situação",
+                "value": 0
+            },
+            {
+                "text": "Não interferir",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "text": "Você não interviu, e assistiu a briga escalar até Toin ter sua mão arrancada por Rabicó! Após isso, comeu, bebeu, pagou sua conta e deixou a cidade.",
+        "choices": [
+            {
+                "text": "FIM."
+            }
+        ]
+    },
+    {
+        "text": "Você tenta acalmar os animos de todos, mas no processo, acaba assustando o dragão que começa a cupir fogo e incedeia o bar no meio do sertão!",
+        "effect": "action",
+        "choices": [
+            {
+                "text": "Usar mágica e fazer chover",
+                "value": 2
+            },
+            {
+                "text": "Apagar o fogo com o poder das gambiarras",
+                "value": 3
+            },
+            {
+                "text": "Tentar fugir",
+                "value": 4
+            }
+        ]
+    },
+    {
+        "text": "Você interviu na briga, com calma e uma boa oratória, você convence os dois a deixarem a desavença para lá, conta uma história que faz todos rir e ainda ganha bebida de graça por ter resolvido a situação. Você fez amigos, como você queria.",
+        "choices": [
+            {
+                "text": "FIM.",
+            }
+        ]
+    },
+    {
+        "text": "Você apagou o fogo! Tudo está bem agora. Depois disso você deixa a cidade.",
+        "choices": [
+            {
+                "text": "FIM."
+            }
+        ]
+    },
+    {
+        "text": "Você fugiu! Tudo está bem agora. Depois disso você deixa a cidade.",
+        "choices": [
+            {
+                "text": "FIM."
+            }
+        ]
+    },
+    {
+        "text": "Você não conseguiu fugir e pereceu nas chamas do Rabicó! Descanse em Paz.",
+        "choices": [
+            {
+                "text": "FIM."
+            }
+        ]
+    }
+]
